@@ -1,3 +1,4 @@
 # Python
 ## Resource 
-ANACONDA Python
+ANACONDA Python 
+MongoDB Community Edition
