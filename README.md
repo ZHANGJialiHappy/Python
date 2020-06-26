@@ -25,4 +25,22 @@ print("Nice to meet you " + name + "!")
 age = input("Your age? ")
 print("So, you are already " + age + " years old, " + name + "!")
 ```
+### 26th June Several ; in one row
+```
+import sys; x = 'runoob'; sys.stdout.write(x + '\n')
+```
+print without changing row: end=""
+```
+x="a"
+y="b"
+# 换行输出
+print( x )
+print( y )
+ 
+print('---------')
+# 不换行输出
+print( x, end=" " )
+print( y, end=" " )
+print()
+```
 
