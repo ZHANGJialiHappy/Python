@@ -103,6 +103,21 @@ False
 2
 >>> 2**5
 32
-
+```
+Data type which can't be changed: Number, String, Tuple
+Data tyoe which can be changed: list, Dictionary, Set
+```
+>>> m=[1,2,3,4,5,6]
+>>> m[0]=9
+>>> m[2:4]=[12,13]
+>>> m[4]=5//3
+>>> m[5]=19%5
+>>> m[1]=2**3
+>>> m
+[9, 8, 12, 13, 1, 4]
+>>> m[2:5]=[]
+>>> m
+[9, 8, 4]
+```
 
 
