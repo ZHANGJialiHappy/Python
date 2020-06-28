@@ -62,4 +62,47 @@ from sys import argv,path  #  导入特定的成员
 print('================python from import===================================')
 print('path:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
 ```
+### 28th June Data Type in Python 3
+```
+a,b,c,d=10, -5.5, True, 4+4j
+print(type(a),type(b),type(c),type(d))
+```
+```
+a=111
+isinstance(a,int);
+```
+The difference between type() and isinstance()
+```
+>>> class A:
+...     pass
+...
+>>> class B(A):
+...     pass
+...
+>>> isinstance(A(),A)
+True
+>>> type(A())==A
+True
+>>> isinstance(B(),A)
+True
+>>> type(B())==A
+False
+```
+```
+>>> 5+4
+9
+>>> 4.3-2
+2.3
+>>> 3*7
+21
+>>> 2/4
+0.5
+>>> 2//4 get integer
+0
+>>> 17%3 #remainder
+2
+>>> 2**5
+32
+
+
 
