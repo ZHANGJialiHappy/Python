@@ -1,4 +1,5 @@
 # Python
+https://www.runoob.com/python3/python3-data-type.html
 ## Resource 
 ANACONDA Python 
 MongoDB Community Edition
@@ -119,5 +120,153 @@ Data tyoe which can be changed: list, Dictionary, Set
 >>> m
 [9, 8, 4]
 ```
-
+### 29th June Tuple, Set and Dictionary
+tuple uses ()
+```
+tuple=('abc', 786)
+tup1=()
+tup2=(20,)
+```
+set uses {} or set()
+```
+>>> sites={'Google', 'Taobao', 'Runoob', 'Facebook', 'Zhihu', 'Baidu'}
+>>> print(sites)
+{'Zhihu', 'Facebook', 'Baidu', 'Runoob', 'Google', 'Taobao'}
+>>> if 'Runoob' in sites:
+...     print('Runoob is in the set')
+... else:
+...     print('Runoob is not in the set')
+...
+Runoob is in the set
+>>> a=set('asdfghhj')
+>>> b=set('ascfgb')
+>>> print(a)
+{'h', 'g', 'f', 's', 'd', 'j', 'a'}
+>>> print(a-b)
+{'j', 'h', 'd'}
+>>> print(a|b)
+{'c', 'h', 'g', 'f', 's', 'b', 'd', 'j', 'a'}
+>>> print(a&b)
+{'a', 'f', 'g', 's'}
+>>> print(a^b)
+{'c', 'h', 'd', 'j', 'b'}
+```
+Dictionary
+```
+>>> dict={}
+>>> dict['one']="1-education"
+>>> dict[2]="2-tool"
+>>> tinydict={'name':'runoob','code':1, 'site': 'www.runoob.com'}
+>>> print(dict['one'])
+1-education
+>>> print(dict[2])
+2-tool
+>>> print(tinydict)
+{'name': 'runoob', 'code': 1, 'site': 'www.runoob.com'}
+>>> print(tinydict.keys())
+dict_keys(['name', 'code', 'site'])
+>>> print(tinydict.values())
+dict_values(['runoob', 1, 'www.runoob.com'])
+```
+### Operator
+```
+>>> a=21
+>>> b=10
+>>> c=0
+>>> print("1-c=" +str(c))
+1-c=31
+>>> c=a-b
+>>> print("2_c+" + str(c))
+2_c+11
+>>> print("2_c=" + str(c))
+2_c=11
+>>>
+>>> c=a+b
+>>> print("c1="+str(c))
+c1=31
+>>> c=a-b
+>>> print("c2="+str(c))
+c2=11
+>>> c=a*b
+>>> print("c3="+str(c))
+c3=210
+>>> c=a/b
+>>> print("c4="+str(c))
+c4=2.1
+>>> c=a%b
+>>> print("c5="+str(c))
+c5=1
+>>> c=a//b
+>>> print("c6="+str(c))
+c6=2
+>>> # change variable
+... a=2
+>>> b=3
+>>> c=a**b
+>>> print("c7="+str(c))
+c7=8
+```
+```
+>>> if(a==b):
+...     print("a=b")
+... else:
+...     print("a!=b")
+...
+a!=b
+>>> if(a>b):
+...     print("a>b")
+... else:
+...     print("a<=b")
+...
+a>b
+```
+```
+>>> a=21
+>>> b=10
+>>> c=0
+>>> c=a+b
+>>> print("c1="+ str(c))
+c1=31
+>>> c+=a # c=c+a
+>>> print("c2="+ str(c))
+c2=52
+>>> c-=a #c=c-a
+>>> print("c3="+str(c))
+c3=31
+>>> c*=a # c=c*a
+>>> print("c4="+ str(c))
+c4=651
+>>> c/=a #c=c/a
+>>> print("c5="+ str(c))
+c5=31.0
+>>> c=2
+>>> c%=a
+>>> print("c6="+ str(c))
+c6=2
+>>> c**=a
+>>> print("c7="+ str(c))
+c7=2097152
+>>> c//=a
+>>> print("c8="+ str(c))
+c8=99864
+```
+in, not in
+```
+>>> a=10
+>>> b=20
+>>> List=[1,2,3,4,5]
+>>> if (a in List):
+...     print("a is in the list")
+... else:
+...     print("a is not in the list")
+...
+a is not in the list
+>>> a=2
+>>> if (a in List):
+...     print("a is in the list")
+... else:
+...     print("a is not in the list")
+...
+a is in the list
+```
 
