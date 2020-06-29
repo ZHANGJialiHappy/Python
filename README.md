@@ -64,6 +64,8 @@ print('================python from import===================================')
 print('path:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
 ```
 ### 28th June Data Type in Python 3
+Data type which can't be changed: Number, String, Tuple
+Data tyoe which can be changed: list, Dictionary, Set
 ```
 a,b,c,d=10, -5.5, True, 4+4j
 print(type(a),type(b),type(c),type(d))
@@ -105,8 +107,6 @@ False
 >>> 2**5
 32
 ```
-Data type which can't be changed: Number, String, Tuple
-Data tyoe which can be changed: list, Dictionary, Set
 ```
 >>> m=[1,2,3,4,5,6]
 >>> m[0]=9
@@ -169,6 +169,7 @@ dict_keys(['name', 'code', 'site'])
 dict_values(['runoob', 1, 'www.runoob.com'])
 ```
 ### Operator
++ - * / % ** //
 ```
 >>> a=21
 >>> b=10
@@ -206,6 +207,7 @@ c6=2
 >>> print("c7="+str(c))
 c7=8
 ```
+== != > < >= <=
 ```
 >>> if(a==b):
 ...     print("a=b")
@@ -220,6 +222,7 @@ a!=b
 ...
 a>b
 ```
++= -= *= /= %= **= //= :=(after Python3.8)
 ```
 >>> a=21
 >>> b=10
