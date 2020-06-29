@@ -296,4 +296,19 @@ c5=240
 >>> print("c6=" + str(c))
 c6=15
 ```
+is is not
+```
+>>> a=20
+>>> b=20
+>>> if(a is b): # id(a)==id(b)
+...     print("a is the same with b")
+...
+a is the same with b
+>>> a=10
+>>> if (a is not b):
+...     print( "a is not the same with b")
+...
+a is not the same with b
+```
+and or not
 
