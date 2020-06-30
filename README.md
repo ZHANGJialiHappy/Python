@@ -64,8 +64,8 @@ print('================python from import===================================')
 print('path:',path) # 因为已经导入path成员，所以此处引用时不需要加sys.path
 ```
 ### 28th June Data Type in Python 3
-Data type which can't be changed: Number, String, Tuple
-Data tyoe which can be changed: list, Dictionary, Set
+Data type which can't be changed: Number, String, Tuple. 
+Data type which can be changed: list, Dictionary, Set
 ```
 a,b,c,d=10, -5.5, True, 4+4j
 print(type(a),type(b),type(c),type(d))
@@ -311,4 +311,26 @@ a is the same with b
 a is not the same with b
 ```
 and or not
+
+### 30th June Number Type
+Int, float, complex
+在交互模式中，最后被输出的表达式结果被赋值给变量 _ 
+```
+>>> tax=12.5/100
+>>> price=100.50
+>>> price*tax
+12.5625
+>>> price+_
+113.0625
+>>> round(_,2)
+113.06
+```
+String 
+```
+>>> var1="Hello World!"
+>>> var2="Runoob"
+>>> print("updated string:", var1[:6]+var2)
+updated string: Hello Runoob
+```
+
 
