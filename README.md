@@ -332,5 +332,32 @@ String
 >>> print("updated string:", var1[:6]+var2)
 updated string: Hello Runoob
 ```
+### 10th July 
+string
+```
+>>> print("I am %s, and I am %d years old" %('Jiali',30))
+I am Jiali, and I am 30 years old
+```
+```
+>>> str="""in three quotation marks, we can use
+... TAB(\t).
+... We can also use[\n].
+... """
+>>> print(str)
+in three quotation marks, we can use
+TAB(	).
+We can also use[
+].
+```
+List
+```
+>>> a=[1,2,3]
+>>> b=['a','b','c']
+>>> c=[a,b]
+>>> c[0]
+[1, 2, 3]
+>>> c[0][1]
+2
+```
 
 
